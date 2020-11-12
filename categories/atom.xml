@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on HUNTSOUL</title>
+    <link>https://huntsoul.com/categories.html</link>
+    <description>Recent content in Categories on HUNTSOUL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Nov 2020 17:00:00 +0800</lastBuildDate><atom:link href="https://huntsoul.com/categories/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RCSWORKS</title>
+      <link>https://huntsoul.com/categories/rcsworks.html</link>
+      <pubDate>Mon, 09 Nov 2020 17:00:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/categories/rcsworks.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SELF-IMPROVEMENT</title>
+      <link>https://huntsoul.com/categories/self-improvement.html</link>
+      <pubDate>Mon, 24 Aug 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/categories/self-improvement.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

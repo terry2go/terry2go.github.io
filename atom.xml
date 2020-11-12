@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUNTSOUL</title>
+    <link>https://huntsoul.com/</link>
+    <description>Recent content on HUNTSOUL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Nov 2020 17:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://huntsoul.com/atom.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RCS软件补白功能说明通知</title>
+      <link>https://huntsoul.com/rcs-filling-notification.html</link>
+      <pubDate>Mon, 09 Nov 2020 17:00:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/rcs-filling-notification.html</guid>
+      
+        <description>&lt;p&gt;尊敬的台领导：&lt;/p&gt;
+&lt;p&gt;您好！&lt;/p&gt;
+&lt;p&gt;RCS在今年处理一些客服问题时，遇到了多次因为RCS软件补白使用问题，而出现影响了RCS软件播出的问题。例如有电台夜间有一小时的无人时段节目时长只排了59分40秒，节目时长少了20秒，但是RCS软件补白库里只有四五分钟时长的音频，这样RCS软件就因为无法找到合适时长的音频而无内容可播，甚至还有电台没有正确设置补白库，导致补白库没有生效进而出现因为节目时长不够而无内容可播的情况，而且上述问题的根本原因都是因为节目时长没有排满60分钟导致的。&lt;/p&gt;
+&lt;p&gt;电台选择使用RCS软件也是想排出更好的歌单，让电台节目的风格统一，固定节目的播出风格，提升节目的收听质量，RCS软件可以在电台自己整理的资料库基础上自动根据不同的标签属性外加一些特定的规则设定，让不同时段类型的节目自动排出最适合这个时段风格的节目单，但是RCS软件的节目单是按照小时进行计算的，如果当前这一小时的节目单没有排满60分钟，特别是无人录播时段，就代表这一小时的节目单在执行播出时需要调用RCS软件里的补白库，但是补白库里的音频往往都无法完全满足每一小时的节目风格，而且RCS软件在选择补白音频时也是根据节目空缺时间随机选择，仅仅是为了填满节目单空缺时间而设计的，所以往往补白的音频跟当前小时的歌曲风格大相径庭，这也违背了使用RCS软件排出更好节目单的理想。&lt;/p&gt;
+&lt;p&gt;虽然RCS软件有补白的功能，但是补白的设计是为了在紧急情况下预排的素材无法正常播出，而提供的紧急功能，确保没有空播的情况出现，如果补白形成了常态，每天无人录播时段都常态性自动出补白，势必也会影响这些时段节目的收听质量，而且补白的频率多了反而也会增加系统不稳定的元素，还请领导理解。&lt;/p&gt;
+&lt;p&gt;目前国内绝大部分电台的节目单都是有专门的音乐编辑负责编排，音乐编辑编排完节目单后，一是需要确认排出来的歌曲是否满足风格，二是需要检查这一天节目单的空隙时间，避免节目时长不够，或者超出时间过多（这样有可能会导致最后一首歌可能播了个开头就因为要进入下一个时段被切掉）。而且往往这两个检查的动作也不会占用太多的工作时间，在RCS软件里检查节目单也是很直观的。&lt;/p&gt;
+&lt;p&gt;如果电台有兴趣多了解当前RCS软件补白库的使用情况，可以联系负责您电台的RCS客服工程师或者我们的客服经理，Terry先生。&lt;/p&gt;
+&lt;p&gt;谨此告知，顺颂商祺！&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP305897</title>
+      <link>https://huntsoul.com/sup305897.html</link>
+      <pubDate>Thu, 29 Oct 2020 11:54:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup305897.html</guid>
+      
+        <description>&lt;p&gt;Client reported that sequencer began to play automatically while DJ was doing live show in live-assist mode at 8:00:32 in Oct 28.&lt;/p&gt;
+&lt;p&gt;We checked the debug file, no any &amp;ldquo;fade_n_go&amp;rdquo; record at that time. But there is &amp;ldquo;DO_NEXT_ITEM_LOAD&amp;rdquo;, in my memory, this message will only show before hard ETM, but the nearest hard ETM was executed at 07:59:47, the next hard ETM will be executed at 08:59:47.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-28 08:00:32.199 | Seq    | SEQUENCER       | CQ881-FM        | Start of processing Resync for EventId: 542647 Event: EXACT_TIME_MARKER Stop Playing Items: True
+0-28 08:00:32.199 | Seq    | SEQUENCER       | CQ881-FM        | Trying to start the next item after a hard etm Id: 542647 station setting is set to start next event after hard etm
+0-28 08:00:32.199 | Seq    | SEQUENCER       | CQ881-FM        | Adding action to the BreakFromLoopActions, description: SetFirstCuedEventAsPlayable
+0-28 08:00:32.199 | Seq    | SEQUENCER       | CQ881-FM        | Adding action to the EndOfLoopActions, description: SetFirstCuedEventAsPlayable
+0-28 08:00:32.199 | Seq    | SEQUENCER       | CQ881-FM        | End of processing Resync for EventId: 542647 Event: EXACT_TIME_MARKER, Items Resynced: 0
+0-28 08:00:32.414 | Seq    | SEQUENCER       | CQ881-FM        | START - Sequencer DB Thread performing action: DO_NEXT_ITEM_LOAD
+0-28 08:00:32.414 | Seq    | SEQUENCER       | CQ881-FM        | Start of LoadNextItems, MinGroupSeq: 8  MinSeq: 21  MaxEvents: 15  Min Date: 2020/10/28 0:00:00  Check next day: True  Go till hard timed: True  Load For Splits: False  MaxGetItems: 182
+0-28 08:00:32.860 | Seq    | SEQUENCER       | CQ881-FM        | End of LoadNextItems, return count: 75 Time to do fill: 446(ms)
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The same problem happened again at 13:03:42 again. They are using Zetta 4.19.2.370, our engineer is on site, please take a look, much appreciate.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP305896</title>
+      <link>https://huntsoul.com/sup305896.html</link>
+      <pubDate>Thu, 29 Oct 2020 11:33:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup305896.html</guid>
+      
+        <description>&lt;p&gt;In Zetta 4.19.2.370 and 4.19.2.374, Zetta will crash when filter any column twice in library. You can easily recreate this issue under follow steps:&lt;/p&gt;
+&lt;p&gt;1.Open Zetta library module, dock this module, then click save layout.&lt;/p&gt;
+&lt;p&gt;2.Close Zetta and reopen, filter any column, then remove this filter, you will see the value showing on this column will disappear, filter this column again, remove this filter again, Zetta will crash.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t see this issue in Zetta 4.19.2.290. And in Zetta 5.20.1.764, Zetta will not crash under above steps, but the value showing on the column will disappear after filtering any column and removing this filter.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP305793</title>
+      <link>https://huntsoul.com/sup305793.html</link>
+      <pubDate>Tue, 27 Oct 2020 10:11:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup305793.html</guid>
+      
+        <description>&lt;p&gt;In China, we always setup one-way site replication for our client&amp;rsquo;s backup onair machine, so that the backup onair machine will not affect the main site. We used the SQL script to delete the backupsite-&amp;gt;mainsite siteconnection from SiteConnection table, script like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Select * from [site]
+Select * from [siteconnection]
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After we get the backupsite-&amp;gt;mainsite siteconnection UniversalIdentifier, we run this script:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;delete from SiteConnection where UniversalIdentifier = &amp;#39;Backup-&amp;gt;Main UniversalIdentifier&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then restart the site replication service in main site and backup site machine.&lt;/p&gt;
+&lt;p&gt;Now we can enable &amp;ldquo;Site Replication Pubilsher Service&amp;rdquo; and &amp;ldquo;Site Replication Receiver Service&amp;rdquo; independently. My question is do we need to delete the backupsite-&amp;gt;mainsite siteconnection from SiteConnection table if we have only enabled &amp;ldquo;Site Replication Pubilsher Service&amp;rdquo; in the main site and only enabled &amp;ldquo;Site Replication Receiver Service&amp;rdquo; in the backup site?&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP305727</title>
+      <link>https://huntsoul.com/sup305727.html</link>
+      <pubDate>Mon, 26 Oct 2020 12:17:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup305727.html</guid>
+      
+        <description>&lt;p&gt;In Zetta, we can set different system managed format for each audio type in Zetta|System|Audio Format, so that Zetta will automatically convert the original audio format to the selected audio format. And we can also convert the asset through the Zetta Library Audio Utility manually.&lt;/p&gt;
+&lt;p&gt;Can Zetta auto load automatically convert the original audio format to the format we want even we turn off the automatic format conversion in Zetta|System|Audio Format? I see there is a format tag in AMU template, but as far as I know, this tag will only import the format value, is that right?&lt;/p&gt;
+&lt;p&gt;If there are few audio files with mp3, wav, s48 and flac, we want import these files through auto load, is there a setting in Zetta to only convert flac files automatically?&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP304087</title>
+      <link>https://huntsoul.com/sup304087.html</link>
+      <pubDate>Wed, 30 Sep 2020 15:55:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup304087.html</guid>
+      
+        <description>&lt;p&gt;In a site replication environment, if we enable &amp;ldquo;Hot Keys&amp;rdquo; or &amp;ldquo;Stacks&amp;rdquo; under &amp;ldquo;Stations|Log Event Settings|Reconcile plays from other modules via log&amp;rdquo; for song in the main site. Then play a song through Hot Keys, while stop this song you will see it will be injected into log in the main site log, but in the site replication site you will see this injected song is currently played in the log, you can see it in the above picture.&lt;/p&gt;
+&lt;p&gt;We can replicate it in Zetta 4.19.2 and 5.20.1.764.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP303364</title>
+      <link>https://huntsoul.com/sup303364.html</link>
+      <pubDate>Tue, 15 Sep 2020 10:42:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup303364.html</guid>
+      
+        <description>&lt;p&gt;Client reported Sequencer stopped playing at 2:08:06 in Sep 15, he found the current Sequencer was in manual mode, then he changed to Auto mode, Sequencer began to play automatically.&lt;/p&gt;
+&lt;p&gt;We checked the User Activity and debug, no entries of the Sequencer mode changing from Auto to Manual. And nobody in the studio at that time, so no one operated Zetta at that time.&lt;/p&gt;
+&lt;p&gt;Cue files between 02:08:06 and 02:08:47 showed &amp;ldquo;Player Online: False&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;We have attached the database backup, debug files and cue files to this FTP site data.&lt;/p&gt;
+&lt;p&gt;Could you please let us know what can we do at this stage. Our client is unhappy because the dead air always happened in the midnight!&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP303278</title>
+      <link>https://huntsoul.com/sup303278.html</link>
+      <pubDate>Mon, 14 Sep 2020 17:19:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup303278.html</guid>
+      
+        <description>&lt;p&gt;Client reported that SONG#597458 only played 3 seconds in Stack. They were using Stack playing Hook at that moment.&lt;/p&gt;
+&lt;p&gt;Here is the Stack playing record, stream began to play at 10:13:52.528, stopped at 10:13:56.234. But it should play 9 seconds, the Hook time of this song showed 00:09 in Stack and so did metadata.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;9-14 10:13:52.528 | Player | PLAYER          | Stream 11       | TransistionsEx.DebugSummary RefId: 597458: StreamPlay » HISTORY
+	Event Time: 4.20
+	Event Took: 0.0000
+	Event Value: 78.0000
+	Event Details: Stream 11: Loaded Media: `D:\Zetta\Cache\14\14462~{50E52B9B-6FBE-4DCF-8869-E92B57AAF2C0}.wav`, Output Device: `OUT  7+8 (Digigram VX822e) (WASAPI)`, RefId: 597458, RefGuid: `AA8D4D36-CE7B-4A60-9B62-B28E9208A983`
+9-14 10:13:56.234 | Player | PLAYER          | Stream 11       | TransistionsEx.DebugSummary RefId: 597458: StreamStop » HISTORY
+	Event Time: 7.91
+	Event Took: 0.0000
+	Event Value: 0.0000
+	Event Details: Stream 11: Loaded Media: `D:\Zetta\Cache\14\14462~{50E52B9B-6FBE-4DCF-8869-E92B57AAF2C0}.wav`, Output Device: `OUT  7+8 (Digigram VX822e) (WASAPI)`, RefId: 597458, RefGuid: `AA8D4D36-CE7B-4A60-9B62-B28E9208A983`
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This is the first time that this issue happened, but our client wants to why.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP303068</title>
+      <link>https://huntsoul.com/sup303068.html</link>
+      <pubDate>Fri, 11 Sep 2020 14:48:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup303068.html</guid>
+      
+        <description>&lt;p&gt;Client reported that Sequencer played in silence from 02:17:56 to 02:18:08 in Sep 11. This is the second time that the same problem happened, the latest issue happened at 02:15:49 in Sep 10.&lt;/p&gt;
+&lt;p&gt;I checked the log, here is what I found:
+1.LINK#410544 began to play at 02:17:34, along with the segue mark of SONG#410543, ended at 02:17:36, but the stop time in log showed 2:18:08.
+2.SONG#410543 didn&amp;rsquo;t fade out in its segue mark at 02:17:34, it continued to play and ended at 02:17:56, but the stop time in log showed 2:18:08.
+3.Sequencer stopped at 02:17:56 and began to play at 02:18:08.
+4.Our client enabled &amp;ldquo;Auto Fade Songs at Segue&amp;rdquo;, &amp;ldquo;Fade-Out Duration&amp;rdquo; and &amp;ldquo;Hard ETM Fade Start Offset&amp;rdquo; were all set as 0.8s.
+5.Their SR backup machine has same log structure, same station settings, sequencer played correctly at above time.
+6.There are also some same log structures in this main site log, but this problem only happened at 02:17:56.&lt;/p&gt;
+&lt;p&gt;I also see these in debug at the time of problem happened, but have no ideas for them.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;9-11 02:18:07.994 | Seq    | SEQUENCER       | CQ881-FM        | CheckForIsAliveSend took 81574!  Step1: 0, Step2: 81574, Used ThreadedPingMessage=False, Used BroadcastMessage=True
+9-11 02:18:08.057 | Seq    | SEQUENCER       | LockWithTimers  | Long lock statement - Name: ProcessNormalQ Diff: 81.6469999999972
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Our client wants to why this happened.&lt;/p&gt;
+&lt;p&gt;I have uploaded all debug cue and backup files to this site folder in NY ftp.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>碰到无理取闹的人要硬碰硬吗</title>
+      <link>https://huntsoul.com/2020-08-24.html</link>
+      <pubDate>Mon, 24 Aug 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/2020-08-24.html</guid>
+      
+        <description>&lt;p&gt;最近一段时间早上都在公司对面的篮球场上锻炼一下，主要有以下三个原因：&lt;/p&gt;
+&lt;p&gt;1.逼自己早起早睡&lt;/p&gt;
+&lt;p&gt;2.早起去公司路上不堵车，同时到了公司附近还有便宜甚至免费的车位，其实还是为了省钱&lt;/p&gt;
+&lt;p&gt;3.夏天天气炎热，上午坐在办公室多少有点昏昏沉沉的感觉&lt;/p&gt;
+&lt;p&gt;坚持了一段时间，发现每天上班都特别有精神，所以也想继续坚持下去。&lt;/p&gt;
+&lt;p&gt;公司对面有个公园，所以每天早上在此锻炼的人还是蛮多了，同时公园中间还有个环境不错的篮球场，里面有两块标准的场地，通常有一块场地是长期有一群早起的老大爷在此锻炼，另外一块场地都是零零散散的年轻人在练习篮球技术，这块场地便也成了我早起锻炼的好去处。&lt;/p&gt;
+&lt;p&gt;打过篮球的应该都知道，篮球弹到其它场地也是一件很正常的事情，大家只要帮忙把球扔回来就行了，因为打球的人都忌讳使劲用脚踢球，一是怕踢坏，二是篮球确实不是用脚踢的，所以大多数人一般都会弯腰把球捡一下然后把球扔回来，或者用脚轻轻拨一下让球自己滚回来就行，如果真的有人使劲用脚像足球一样把球踢回来，就很有可能会起点冲突，这应该是篮球场上的一个大家默许的一个“规则”。&lt;/p&gt;
+&lt;p&gt;前几天天气晴朗，所以依旧坚持早起去公园锻炼，正好就遇到了这么一个“规则”破坏者，我们这个场地的篮球弹到了早起老大爷专用球场，我赶紧跑过去，让他们小心别踩到球了（因为无意识踩到球很容易崴脚），可能是我声音太小，老大爷们也没注意，等到一位白发苍苍的老大爷看到球滚到自己脚下时，大脚一起就把篮球用力的踢回去了。&lt;/p&gt;
+&lt;p&gt;我心想我都已经跑过来了，还当着我的面用这种破坏“规则”的方式踢球，我就对这位大爷说了句：“大爷，我都跑过来了啊”。没想到这位大爷脾气就上来了，嘴里嘟噜嘟噜对我吼了个半天，就差冲到我面前了，当然我是一句也没听清楚，所以我就对着这个大爷面带微笑，以为这样大爷就算了，没想到脾气更大了，后面就说了些自己年纪大了，我要怎么样怎么样类似这种倚老卖老的话了。当然我还是面带微笑也没吭声，有点像那种自己知道自己家小孩要发脾气，你要笑着看他发完脾气，小孩自己就消停了，因为小孩知道再发脾气也没有用，可能这个比喻不太恰当，但我确实通过这种方式避免因为别人对我发脾气而让我也开始发脾气，最后这位老大爷估计也看我没啥反应还有点嘲笑他的感觉也就算了。&lt;/p&gt;
+&lt;p&gt;后来我跟一起锻炼的球友还开玩笑，我还真怕这位大爷跑过来打我。&lt;/p&gt;
+&lt;p&gt;其实在生活中，难免会遇到一些无理取闹或者没有礼貌的人，当然这些人不会觉得自己有问题，而且往往这些人是不可能通过讲道理解决问题的，要是跟他们吵起架来，咱们大概率上会落在下风，而且还很有可能让自己一天心情都不爽，有句话说得好，惹不过就躲吧，个人觉得这不算是示弱，以柔克刚不也是咱们老祖宗教咱们的为人处世之道吗。&lt;/p&gt;
+&lt;p&gt;但是在工作中，特别如果大家是在从事那种需要跟客户面对面打交道的工作，我想绝大多数公司应该都会把客户当成上帝吧，所以往往总会有些客户真的把自己当成上帝，会要求你这个要求你那个，这个时候就非常考验直接面对客户的这个人了，如果你是这个人，你可能觉得他是在找你麻烦，觉得他们在无理取闹，不妨静下心来，不要立马做这位“上帝”的对立面，真正的分析好客户的需求，哪些合理哪些不合理，而不是拼命的想去躲这个客户，相信我，你会有不一样的处事方式，而且也会慢慢积累到客户的认同。换句话说，如果能一个“上帝”能够认同自己，该是一个多么大的成就。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP299967</title>
+      <link>https://huntsoul.com/sup299967.html</link>
+      <pubDate>Thu, 23 Jul 2020 15:02:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup299967.html</guid>
+      
+        <description>&lt;p&gt;Under Zetta 5.20.1.719, while editing audio via the external editors on Zetta, using Audition, Zetta will not update the audio when you click save on Audition or close Audition down either you tick &amp;ldquo;On file modified&amp;rdquo; or &amp;ldquo;On editor closed&amp;rdquo;. Then you open Zetta - Tools - External Editors, here is the list showing all audio editing in External Editors. Select the audio you just edit and click save button, now Zetta will update the audio correctly. But using the same operation under Zetta 4.19.2, Zetta will update the audio automatically, no need to click save button in the External Editors list.&lt;/p&gt;
+&lt;p&gt;Another finding is the runtime still remaining unchanged in the library after you click save button in the External Editors list under Zetta 5.20.1.719, but the runtime updates correctly in metadata, you can see it in the upload video. Under Zetta 4.19.2, the runtime will update correctly both in the library and metadata.&lt;/p&gt;
+&lt;p&gt;Audition version: 3.0 and 2020&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP299355</title>
+      <link>https://huntsoul.com/sup299355.html</link>
+      <pubDate>Tue, 14 Jul 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup299355.html</guid>
+      
+        <description>&lt;p&gt;Client reported that Zetta.exe crashed at around 10:20. The DJ told us he was using Stack playing hook, the sequencer was idle at that time, while he clicked &amp;ldquo;Play Next&amp;rdquo; button, Zetta UI crashed. After reopen Zetta, everything went back to normal.&lt;/p&gt;
+&lt;p&gt;We checked debug files and windows logevent, here are what we see:
+1.No network disconnect issue at that time.
+2.We find exception in Zetta.exe.xlog at 10:20:01.219, which is said &amp;ldquo;[code]Internal error: internal WPF code tried to reactivate a BindingExpression that was already marked as detached[/code]&amp;rdquo;, what does this mean?
+3.We always restart Zetta UI in the evening once everyday through Windows Task Scheduler. Zetta.exe process has only been running for 7 hours before it crashed.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;7-13 10:00:00.124 | Zetta  | ZETTA           |                 | =============== PROCESS Zetta.exe 4.19.1.377 UPTIME 7 hrs. 39 mins. 55 secs. ===============
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Our client wants to know why this incident happened and how to avoid. Thanks.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP296497</title>
+      <link>https://huntsoul.com/sup296497.html</link>
+      <pubDate>Wed, 27 May 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup296497.html</guid>
+      
+        <description>&lt;p&gt;Client reported that Sequencer didn&amp;rsquo;t play anything after he restarted the onair machine at around 22:00. We found Sequencer continued skipping events so nothing played. After we uninstalled and reinstalled the audio card driver, Sequencer began to play normally.&lt;/p&gt;
+&lt;p&gt;Checked the debug file, found lots of &amp;lsquo;RENDER ERROR&amp;rsquo; messages in mediaplayerlauncher in that time. And we also found Windows updated itself during the period while computer restarted, like &amp;lsquo;Version 1909 05 update&amp;rsquo;, &amp;lsquo;Intel Corporation-Display update&amp;rsquo; and &amp;lsquo;.net Framework 3.5 and 4.8 update&amp;rsquo;. Will these updates affect current Zetta play device? Obviously Zetta play device didn&amp;rsquo;t work after Windows update in this case. And what is your suggestion if our client will do Windows update for their onair machine?&lt;/p&gt;
+&lt;p&gt;Another question is we always disable Windows update service to prevent Windows updating itself without any mention, but I find Win10 will enforce to enable the update service by itself no matter we have disabled it previously. So I can only create a &amp;lsquo;disable Windows update&amp;rsquo; task running everyday to make sure it will be disabled. Do you have any suggestion for this too?&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP294738</title>
+      <link>https://huntsoul.com/sup294738.html</link>
+      <pubDate>Thu, 30 Apr 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup294738.html</guid>
+      
+        <description>&lt;p&gt;Our client report that they record a m4a audio file using iPhone, the original runtime is 37s, but after dragging it to Zetta library, the runtime only show 3.2s. We find the trim-out mark is setting in the position of 3.2s. No problem while import this audio file through autoload.&lt;/p&gt;
+&lt;p&gt;We can recreate the same under 5.20.1. If we remove the analysis settings, no trim-out mark will be set, the runtime shows 37s correctly.&lt;/p&gt;
+&lt;p&gt;I find BT92784 similar with this issue, could you verify and will this issue be addressed?&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP291136</title>
+      <link>https://huntsoul.com/sup291136.html</link>
+      <pubDate>Mon, 09 Mar 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup291136.html</guid>
+      
+        <description>&lt;p&gt;Client reported that 3 spots was not played at 19:20:41 in March 5. First spot&amp;rsquo;s error code showed &amp;ldquo;Invalid log event status&amp;rdquo;, the last two spots&#39; error code showed &amp;ldquo;Item was not played because its parent event was stopped&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Checked the debug file, I found DJ clicked play next at 19:20:41, then SpotBlock#207902 was skipped, all spots in this SpotBlock didn&amp;rsquo;t play, sequencer began to play next link.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;3-05 19:20:41.615 | Zetta | ONAIR | YZ949-FM | Fade_N_Go sent at 2020/3/5 19:20:41
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;From the cue file, SpotBlock#207902 should play at 19:20:41.582 automatically if no &amp;ldquo;play next&amp;rdquo; clicking.&lt;/p&gt;
+&lt;p&gt;Debug also said sequencer could not start event at 19:20:41.673, and showed &amp;ldquo;bad status&amp;rdquo;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;3-05 19:20:41.673 | Seq    | SEQUENCER       | YZ949-FM        | Could not start event, bad status: (NOT_PLAYED)
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;They are using 4.19.2.290, I try to use the same log structure playing in my Zetta, clicked played next while previous song will be stopped and SpotBlock will begin to play, I can only see the first spot is faded early and next spot begins to play correctly. Our client wants to know why this problem happened.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>给自己设置一个大点的目标吧</title>
+      <link>https://huntsoul.com/2020-03-08.html</link>
+      <pubDate>Sun, 08 Mar 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/2020-03-08.html</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;曾经有一只小猴子，肚子被划伤了，流了很多血，它见到一个小鸭子朋友就扒开伤口说：你看我的伤口，好痛。小鸭子赶紧安慰它，同情它，告诉它要赶紧包扎一下。小猴子继续走啊，每遇到一个朋友，就继续给朋友看伤口，这些朋友也都是赶紧安慰它，同情它。可是小猴子只是把伤口给朋友看，并没有听朋友的意见去处理伤口，后来还是因为失血过多而死掉了。如果小猴子一开始就包好伤口，不给别人看伤口，伤口就会慢慢愈合，也不会有后来的事情了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今天跟荷小花饭后聊天，聊了很多，最后荷小花给我讲了这个她记了很多年的故事，很有感触，因为最近一两年我经常跟她聊关于工作上的一些焦虑，但是我却从没有往前踏出一步，其实我就是这只小猴子，遇到一个人就让别人看一下我的伤口，但却从来不去注意伤口。&lt;/p&gt;
+&lt;p&gt;我会经常跟荷小花说她是有一技之长的，而且这些技能是可以去量化的，但是我好像没啥特别的技能，而且就算有些技能好像也无法量化。这个量化的意思就是举个例子，我作为一个个人，被另外一个人委托去做一个事情，做完之后到时会得到一定的收入，这个技能我觉得就是可以量化的技能，所以发展一个可以被量化的技能迫在眉睫，而不是老是给别人看伤口，要用这些技能去治好伤口。&lt;/p&gt;
+&lt;p&gt;那既然聊到一个技能，先把是不是可以被量化放在一边，要去掌握一个或多个技能，避不开的就是这些技能背后需要实现的目标。这几天在看Bodo Schaefer（博多·舍费尔）的《The Road To Financial Freedom》一书，提到了一个与我之前理解完全不一样的观点，为自己设定自己有生之年无法实现的目标。也就是为自己设立一个远大的目标，因为当目标太小时，一旦你和目标之间出现障碍，视线就会被挡住，你朝着这个目标看，全是问题，就完全看不到目标了。一旦我们无法将目光集中于目标，怀疑和恐惧就产生了。很多人为了避免被问题阻挡，会为自己寻找下一个目标。新的目标和他们在某个时间也在出现问题，为了回避问题，他们也许会再次寻找下一个目标。所以，设立一个大的目标，问题出现时也不会完全阻挡你看见目标的视线，你也就清楚自己为什么而努力了。&lt;/p&gt;
+&lt;p&gt;所以给你自己设立一个大点的目标吧，不要高估了自己1年内能做到的事情，却低估了自己10年内能做到的事情，如果目标能够在10年后实现呢？&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP285843</title>
+      <link>https://huntsoul.com/sup285843.html</link>
+      <pubDate>Fri, 13 Dec 2019 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup285843.html</guid>
+      
+        <description>&lt;p&gt;Client reported that 8 spots was not played at 7:57 in Dec 12, error code showed &amp;ldquo;Item was not played because its parent event was stopped&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Checked the cue and debug file, I found SPOT#84829 stopped at 7:58:04, but it should be stopped at 7:58:11 and continued playing SPOT#84830. From the cue file created at 7:57:44, the end time of SPOT#84829 and SB#81532 were all showed 7:58:04, all next spots&#39; start time were showed 7:58:04, and (R F) showed in front(you can see this in the picture below), I know F means Fixed, what does R mean? And why SPOT#84829 stopped at 7:58:04 not 7:58:11?&lt;/p&gt;
+&lt;p&gt;I also see SONG#81526 and LINK#81527 were still sitting top of the queue, so that when DJ click Next button at 7:58:34, SONG#81526 began to play. I can recreate this under 4.19.2Beta3, set runtime 00:00 and chain stop for Live event. But there is no evidence show this will causing fixed spot stopped early.&lt;/p&gt;
+&lt;p&gt;This client was running 4.19.1GR. We have upgraded this site to 4.19.2Beta3 and set runtime 01:00 for these Live events. But we still want to know why these spots were not played. And we have uploaded cue, debug files and database backup under ftp folder.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP282743</title>
+      <link>https://huntsoul.com/sup282743.html</link>
+      <pubDate>Mon, 28 Oct 2019 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup282743.html</guid>
+      
+        <description>&lt;p&gt;Client reported that sequencer stopped playing at 8:58:03 and 10:57:47, then DJ clicked &amp;ldquo;Play Next&amp;rdquo;, sequencer came back to play again.&lt;/p&gt;
+&lt;p&gt;Sequencer stopped playing at 08:58:03.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-26 08:58:03.304 | Seq    | SEQUENCER       | SX988           | QueueData.OnPlayerStop LogEventID: 3724167, Player stop: 2019-10-26T08:58:03.3017576+08:00, Sequencer stop: 2019-10-26T08:58:03.3167574+08:00, Diff: -00:00:00.0149998, Play length: 7234.18:38:21.5177580, Stop Time to Use 2019-10-26T00:58:03.3047578Z
+0-26 08:58:03.305 | Seq    | SEQUENCER       | SX988           | Fade on logEventId: 3724167 is over the stop time, reducing fade from 2.5 new fade: 0.0119996
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;DJ clicked &amp;ldquo;Play Next&amp;rdquo; at 08:58:06.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-26 08:58:06.272 | Seq    | SEQUENCER       | SX988           | Processing sequencer command: Fade_N_Go, TrackingId: 0
+0-26 08:58:06.273 | Seq    | SEQUENCER       | SX988           | Start of Fade-N-Go , OverridePlay Stream: , overrideRendererId: , excludeLogEventId:
+0-26 08:58:06.273 | Seq    | SEQUENCER       | SX988           | Removing Event from seq. q: 开车时请勿接听电话 Id: 3724167
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;They are using 4.19.1, client want to know why this issue happened, this issue has happened 3 times in last weekend. Never happened before upgrading to 4.19.1, they used 4.3.0.278 before.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP282165</title>
+      <link>https://huntsoul.com/sup282165.html</link>
+      <pubDate>Mon, 21 Oct 2019 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup282165.html</guid>
+      
+        <description>&lt;p&gt;Client reported that Sequencer stopped playing after SONG#3358019 ended at 16:39:16 in Oct 17, 2 seconds later he clicked Play Next button, SpotBlock#337412 skipped, continued to play next event LINK#337413. They want to know why this happened.&lt;/p&gt;
+&lt;p&gt;From the logeditor, SpotBlock#337412 status showed &amp;ldquo;Played&amp;rdquo;, first spot event&amp;rsquo;s status showed &amp;ldquo;event_error&amp;rdquo;, last three spot events&#39; status showed &amp;ldquo;not played&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;SONG#3358019 stopped at 16:39:16.164.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-17 16:39:16.196 | Seq    | SEQUENCER       | SJZYY-FM        | Event STOPPED ID: 3358019 Status: PENDING_PLAYED Error Code: INVALID Edit Code: USER_INSERT
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;DJ click Play Next at 16:39:18.563.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-17 16:39:18.563 | Seq    | SEQUENCER       | SJZYY-FM        | Start of Fade-N-Go , OverridePlay Stream: , overrideRendererId: , excludeLogEventId:
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Seems like Play Next button clicking caused SpotBlock#337412 skppied.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-17 16:39:18.566 | Seq    | SEQUENCER       | SJZYY-FM        | Event STOPPED ID: 3337412 Status: PLAYED_FADE_N_GO Error Code: INVALID Edit Code: INVALID
+0-17 16:39:18.566 | Seq    | SEQUENCER       | SJZYY-FM        | Adding action to the EndOfLoopActions, description: EndEvent.CheckNextCuedETMForFill
+0-17 16:39:18.567 | Seq    | SEQUENCER       | SJZYY-FM        | Event STOPPED ID: 3357796 Status: NOT_PLAYED Error Code: PARENT_EVENT_STOPPED Edit Code: FLAT_FILE_LOAD_INSERT
+0-17 16:39:18.567 | Seq    | SEQUENCER       | SJZYY-FM        | Stopping event, UNLOADING from the player, Status: NOT_PLAYED Stopped Id: 3357796, Unload Streams: (PlayerStreamId: 22, StreamKey: 1, Player: 153885903604797) (PlayerStreamId: 58, StreamKey: 1, Player: 193654904283641) (PlayerStreamId: 47, StreamKey: 2, Player: 184422217935546)
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;They are using 4.4.0SP1, we plan to update this site to 4.19.1. But our client is asking why this issue happend. Appreciate to take a look, thanks.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>SUP280807</title>
+      <link>https://huntsoul.com/sup280807.html</link>
+      <pubDate>Thu, 10 Oct 2019 15:30:00 +0800</pubDate>
+      
+      <guid>https://huntsoul.com/sup280807.html</guid>
+      
+        <description>&lt;p&gt;Client reported that there was 0.1 second repeat while sequencer began to play LINK#229733 at 7:17:06 and in Oct 7th. The same problem has occurred several times.&lt;/p&gt;
+&lt;p&gt;From CUE file, LINK#229733 began to play at 07:17:06.628.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;PENDING_Seq(         )           07:17:06.628  U (    0,      ) - 07:17:16.468 (  1.15),    229733 (    12379), PLAY_ASSET     , CHAIN_SEGUE ,   ,              , 1     , 新台歌A.Caplla【短版】 ` `-``                                                                              , 0        , INVALID                   , feea7a84-1fe3-e911-a13a-20040ff877ad, ea9b2752-1347-4f21-9f0f-5ff132b36142 (14:26:42.927) (14:26:52.767),  (\\SX940-SVR01\Zetta\Audio\30\30781~{9AE98873-58E3-4A72-B6B4-BDAF6F3FA7AF}.wav                                                                                                                                                                             ) 
+CURRENT Pla(229733   )           07:17:15.358  U (   32,     2) - 07:21:39.638 (   2.5),    229753 (     2465), PLAY_ASSET     , CHAIN_SEGUE ,   ,              , 1     , 对你爱不完 ` `-``                                                                                        , 0        , INVALID                   , 0deb7a84-1fe3-e911-a13a-20040ff877ad, bde7f2f0-47d8-46e2-916e-7ee84e21478e (14:26:51.657) (14:31:15.937),  (\\SX940-SVR01\Zetta\Audio\22\22295~{D1D30C01-5920-4DDE-A593-B66BAEF61559}.wav                                                                                                                                                                             ) 
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;From mediaplayerlauncher debug file, LINK#229733 started playing from the Stream Trigger on event 236918 at 07:17:06.508:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;10-07 07:17:06.508 | Player | PLAYER          | [§](Stream `1`) | [Δ]RefId: 236918: StreamPOITrigger » HISTORY
+	Event Time: 106.39
+	Event Took: 0.0000
+	Event Value: 0.0000
+	Event Details: [§](Stream `1`): Loaded Media: `D:\Zetta\Cache\39\39615~940旭辉江山版二(成品15s)2019-0930.mp3`, Output Device: `OUT  1+2 (Digigram VX822e) (WASAPI)`, RefId: 236918, RefGuid: `F5311763-51D1-4674-ADBC-0C3796B4CCBA`
+	Trigger Msg: &amp;lt;xMsg_Stream_Play PlayerID=&amp;#34;280264117645325&amp;#34; StreamKey=&amp;#34;4&amp;#34; RefType=&amp;#34;1&amp;#34; RefGuidString=&amp;#34;feea7a84-1fe3-e911-a13a-20040ff877ad&amp;#34; RefString=&amp;#34;&amp;amp;lt;xRefString Title=&amp;amp;quot;新台歌A.Caplla【短版】&amp;amp;quot; Artist=&amp;amp;quot;&amp;amp;quot; Cut=&amp;amp;quot;&amp;amp;quot; /&amp;amp;gt;&amp;#34;&amp;gt;&amp;lt;RefZetta RefStationID=&amp;#34;1&amp;#34; RefLogEventTypeID=&amp;#34;106&amp;#34; RefLogEventID=&amp;#34;229733&amp;#34; RefSsdID=&amp;#34;24758&amp;#34; RefAssetTypeID=&amp;#34;3&amp;#34; RefAssetID=&amp;#34;12379&amp;#34; RefResourceID=&amp;#34;30781&amp;#34; /&amp;gt;&amp;lt;/xMsg_Stream_Play&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;From sequencerlauncher debug file, we found sequencer instructed player to reload the audio onto the stream at 07:17:06.636, even though it was already loaded:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-07 07:17:06.636 | Seq    | PLAYMONITOR     | [§](Stream `4`) | [POST] Player Message: RCS.ZettaXML.xMsg_Stream_Load
+Stream Details: ([¶][§](280264117645325 @ 4)) @ Reference data[ Type: ZETTA, Guid:feea7a84-1fe3-e911-a13a-20040ff877ad, String: &amp;lt;xRefString Title=&amp;#34;新台歌A.Caplla【短版】&amp;#34; Artist=&amp;#34;&amp;#34; Cut=&amp;#34;&amp;#34; /&amp;gt; ]
+Message XML:
+&amp;lt;xMsg_Stream_Load PlayerID=&amp;#34;280264117645325&amp;#34; StreamKey=&amp;#34;4&amp;#34; RefType=&amp;#34;16777473&amp;#34; RefGuidString=&amp;#34;feea7a84-1fe3-e911-a13a-20040ff877ad&amp;#34; RefString=&amp;#34;&amp;amp;lt;xRefString Title=&amp;amp;quot;新台歌A.Caplla【短版】&amp;amp;quot; Artist=&amp;amp;quot;&amp;amp;quot; Cut=&amp;amp;quot;&amp;amp;quot; /&amp;amp;gt;&amp;#34; Media=&amp;#34;\\SX940-SVR01\Zetta\Audio\30\30781~{9AE98873-58E3-4A72-B6B4-BDAF6F3FA7AF}.wav&amp;#34; Owner=&amp;#34;08e56a82-2222-0068-0001-37a14ce28ed4&amp;#34; Display=&amp;#34;新台歌A.Caplla【短版】&amp;#34; Playnow=&amp;#34;true&amp;#34; SeekPosition=&amp;#34;0&amp;#34;&amp;gt;
+  &amp;lt;RefZetta RefStationID=&amp;#34;1&amp;#34; RefLogEventTypeID=&amp;#34;106&amp;#34; RefLogEventID=&amp;#34;229733&amp;#34; RefSsdID=&amp;#34;24758&amp;#34; RefAssetTypeID=&amp;#34;3&amp;#34; RefAssetID=&amp;#34;12379&amp;#34; RefResourceID=&amp;#34;30781&amp;#34; /&amp;gt;
+  &amp;lt;Transition ResourceLength=&amp;#34;10.08&amp;#34; Key=&amp;#34;120567461307612728&amp;#34; Filename=&amp;#34;30781~{9AE98873-58E3-4A72-B6B4-BDAF6F3FA7AF}.wav&amp;#34; PlaybackMode=&amp;#34;OnAir&amp;#34; FileMD5=&amp;#34;D48A8167FB32556665C47DFF1B9C2311&amp;#34; Zetta_ResourceID=&amp;#34;30781&amp;#34; Zetta_StationSpecificDataID=&amp;#34;24758&amp;#34;&amp;gt;
+      &amp;lt;xMOMMessage Agent=&amp;#34;08e56a82-1111-be01-8000-fee6132cf00d&amp;#34; DataType=&amp;#34;1058&amp;#34; DataId=&amp;#34;280264117645325&amp;#34; DataKey=&amp;#34;2&amp;#34; DataMsg=&amp;#34;&amp;amp;lt;xMsg_Stream_Play PlayerID=&amp;amp;quot;280264117645325&amp;amp;quot; StreamKey=&amp;amp;quot;2&amp;amp;quot; RefType=&amp;amp;quot;1&amp;amp;quot; RefGuidString=&amp;amp;quot;0deb7a84-1fe3-e911-a13a-20040ff877ad&amp;amp;quot; RefString=&amp;amp;quot;&amp;amp;amp;lt;xRefString Title=&amp;amp;amp;quot;对你爱不完&amp;amp;amp;quot; Artist=&amp;amp;amp;quot;庾澄庆&amp;amp;amp;quot; Cut=&amp;amp;amp;quot;&amp;amp;amp;quot; /&amp;amp;amp;gt;&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;RefZetta RefStationID=&amp;amp;quot;1&amp;amp;quot; RefLogEventTypeID=&amp;amp;quot;106&amp;amp;quot; RefLogEventID=&amp;amp;quot;229753&amp;amp;quot; RefSsdID=&amp;amp;quot;4929&amp;amp;quot; RefAssetTypeID=&amp;amp;quot;1&amp;amp;quot; RefAssetID=&amp;amp;quot;2465&amp;amp;quot; RefResourceID=&amp;amp;quot;22295&amp;amp;quot; /&amp;amp;gt;&amp;amp;lt;/xMsg_Stream_Play&amp;amp;gt;&amp;#34; /&amp;gt;
+  &amp;lt;/Transition&amp;gt;
+&amp;lt;/xMsg_Stream_Load&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;All occurrence involved asset#12379. And they are using 4.18.1SP4 in win10, we have suggested this client replace this audio file and adjust marks to see if we can avoid this issue. But our client wants to know why this issue happened.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
