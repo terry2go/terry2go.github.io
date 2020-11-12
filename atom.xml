@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HUNTSOUL</title>
-    <link>https://huntsoul.com/</link>
+    <link>https://www.huntsoul.com/</link>
     <description>Recent content on HUNTSOUL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Nov 2020 17:00:00 +0800</lastBuildDate>
     
-        <atom:link href="https://huntsoul.com/atom.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.huntsoul.com/atom.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RCS软件补白功能说明通知</title>
-      <link>https://huntsoul.com/rcs-filling-notification.html</link>
+      <link>https://www.huntsoul.com/rcs-filling-notification.html</link>
       <pubDate>Mon, 09 Nov 2020 17:00:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/rcs-filling-notification.html</guid>
+      <guid>https://www.huntsoul.com/rcs-filling-notification.html</guid>
       
         <description>&lt;p&gt;尊敬的台领导：&lt;/p&gt;
 &lt;p&gt;您好！&lt;/p&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>SUP305897</title>
-      <link>https://huntsoul.com/sup305897.html</link>
+      <link>https://www.huntsoul.com/sup305897.html</link>
       <pubDate>Thu, 29 Oct 2020 11:54:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup305897.html</guid>
+      <guid>https://www.huntsoul.com/sup305897.html</guid>
       
         <description>&lt;p&gt;Client reported that sequencer began to play automatically while DJ was doing live show in live-assist mode at 8:00:32 in Oct 28.&lt;/p&gt;
 &lt;p&gt;We checked the debug file, no any &amp;ldquo;fade_n_go&amp;rdquo; record at that time. But there is &amp;ldquo;DO_NEXT_ITEM_LOAD&amp;rdquo;, in my memory, this message will only show before hard ETM, but the nearest hard ETM was executed at 07:59:47, the next hard ETM will be executed at 08:59:47.&lt;/p&gt;
@@ -68,10 +68,10 @@
     
     <item>
       <title>SUP305896</title>
-      <link>https://huntsoul.com/sup305896.html</link>
+      <link>https://www.huntsoul.com/sup305896.html</link>
       <pubDate>Thu, 29 Oct 2020 11:33:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup305896.html</guid>
+      <guid>https://www.huntsoul.com/sup305896.html</guid>
       
         <description>&lt;p&gt;In Zetta 4.19.2.370 and 4.19.2.374, Zetta will crash when filter any column twice in library. You can easily recreate this issue under follow steps:&lt;/p&gt;
 &lt;p&gt;1.Open Zetta library module, dock this module, then click save layout.&lt;/p&gt;
@@ -83,10 +83,10 @@
     
     <item>
       <title>SUP305793</title>
-      <link>https://huntsoul.com/sup305793.html</link>
+      <link>https://www.huntsoul.com/sup305793.html</link>
       <pubDate>Tue, 27 Oct 2020 10:11:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup305793.html</guid>
+      <guid>https://www.huntsoul.com/sup305793.html</guid>
       
         <description>&lt;p&gt;In China, we always setup one-way site replication for our client&amp;rsquo;s backup onair machine, so that the backup onair machine will not affect the main site. We used the SQL script to delete the backupsite-&amp;gt;mainsite siteconnection from SiteConnection table, script like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
@@ -116,10 +116,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP305727</title>
-      <link>https://huntsoul.com/sup305727.html</link>
+      <link>https://www.huntsoul.com/sup305727.html</link>
       <pubDate>Mon, 26 Oct 2020 12:17:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup305727.html</guid>
+      <guid>https://www.huntsoul.com/sup305727.html</guid>
       
         <description>&lt;p&gt;In Zetta, we can set different system managed format for each audio type in Zetta|System|Audio Format, so that Zetta will automatically convert the original audio format to the selected audio format. And we can also convert the asset through the Zetta Library Audio Utility manually.&lt;/p&gt;
 &lt;p&gt;Can Zetta auto load automatically convert the original audio format to the format we want even we turn off the automatic format conversion in Zetta|System|Audio Format? I see there is a format tag in AMU template, but as far as I know, this tag will only import the format value, is that right?&lt;/p&gt;
@@ -130,10 +130,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP304087</title>
-      <link>https://huntsoul.com/sup304087.html</link>
+      <link>https://www.huntsoul.com/sup304087.html</link>
       <pubDate>Wed, 30 Sep 2020 15:55:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup304087.html</guid>
+      <guid>https://www.huntsoul.com/sup304087.html</guid>
       
         <description>&lt;p&gt;In a site replication environment, if we enable &amp;ldquo;Hot Keys&amp;rdquo; or &amp;ldquo;Stacks&amp;rdquo; under &amp;ldquo;Stations|Log Event Settings|Reconcile plays from other modules via log&amp;rdquo; for song in the main site. Then play a song through Hot Keys, while stop this song you will see it will be injected into log in the main site log, but in the site replication site you will see this injected song is currently played in the log, you can see it in the above picture.&lt;/p&gt;
 &lt;p&gt;We can replicate it in Zetta 4.19.2 and 5.20.1.764.&lt;/p&gt;
@@ -143,10 +143,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP303364</title>
-      <link>https://huntsoul.com/sup303364.html</link>
+      <link>https://www.huntsoul.com/sup303364.html</link>
       <pubDate>Tue, 15 Sep 2020 10:42:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup303364.html</guid>
+      <guid>https://www.huntsoul.com/sup303364.html</guid>
       
         <description>&lt;p&gt;Client reported Sequencer stopped playing at 2:08:06 in Sep 15, he found the current Sequencer was in manual mode, then he changed to Auto mode, Sequencer began to play automatically.&lt;/p&gt;
 &lt;p&gt;We checked the User Activity and debug, no entries of the Sequencer mode changing from Auto to Manual. And nobody in the studio at that time, so no one operated Zetta at that time.&lt;/p&gt;
@@ -159,10 +159,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP303278</title>
-      <link>https://huntsoul.com/sup303278.html</link>
+      <link>https://www.huntsoul.com/sup303278.html</link>
       <pubDate>Mon, 14 Sep 2020 17:19:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup303278.html</guid>
+      <guid>https://www.huntsoul.com/sup303278.html</guid>
       
         <description>&lt;p&gt;Client reported that SONG#597458 only played 3 seconds in Stack. They were using Stack playing Hook at that moment.&lt;/p&gt;
 &lt;p&gt;Here is the Stack playing record, stream began to play at 10:13:52.528, stopped at 10:13:56.234. But it should play 9 seconds, the Hook time of this song showed 00:09 in Stack and so did metadata.&lt;/p&gt;
@@ -199,10 +199,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP303068</title>
-      <link>https://huntsoul.com/sup303068.html</link>
+      <link>https://www.huntsoul.com/sup303068.html</link>
       <pubDate>Fri, 11 Sep 2020 14:48:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup303068.html</guid>
+      <guid>https://www.huntsoul.com/sup303068.html</guid>
       
         <description>&lt;p&gt;Client reported that Sequencer played in silence from 02:17:56 to 02:18:08 in Sep 11. This is the second time that the same problem happened, the latest issue happened at 02:15:49 in Sep 10.&lt;/p&gt;
 &lt;p&gt;I checked the log, here is what I found:
@@ -231,10 +231,10 @@ Select * from [siteconnection]
     
     <item>
       <title>碰到无理取闹的人要硬碰硬吗</title>
-      <link>https://huntsoul.com/2020-08-24.html</link>
+      <link>https://www.huntsoul.com/2020-08-24.html</link>
       <pubDate>Mon, 24 Aug 2020 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/2020-08-24.html</guid>
+      <guid>https://www.huntsoul.com/2020-08-24.html</guid>
       
         <description>&lt;p&gt;最近一段时间早上都在公司对面的篮球场上锻炼一下，主要有以下三个原因：&lt;/p&gt;
 &lt;p&gt;1.逼自己早起早睡&lt;/p&gt;
@@ -254,10 +254,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP299967</title>
-      <link>https://huntsoul.com/sup299967.html</link>
+      <link>https://www.huntsoul.com/sup299967.html</link>
       <pubDate>Thu, 23 Jul 2020 15:02:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup299967.html</guid>
+      <guid>https://www.huntsoul.com/sup299967.html</guid>
       
         <description>&lt;p&gt;Under Zetta 5.20.1.719, while editing audio via the external editors on Zetta, using Audition, Zetta will not update the audio when you click save on Audition or close Audition down either you tick &amp;ldquo;On file modified&amp;rdquo; or &amp;ldquo;On editor closed&amp;rdquo;. Then you open Zetta - Tools - External Editors, here is the list showing all audio editing in External Editors. Select the audio you just edit and click save button, now Zetta will update the audio correctly. But using the same operation under Zetta 4.19.2, Zetta will update the audio automatically, no need to click save button in the External Editors list.&lt;/p&gt;
 &lt;p&gt;Another finding is the runtime still remaining unchanged in the library after you click save button in the External Editors list under Zetta 5.20.1.719, but the runtime updates correctly in metadata, you can see it in the upload video. Under Zetta 4.19.2, the runtime will update correctly both in the library and metadata.&lt;/p&gt;
@@ -268,10 +268,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP299355</title>
-      <link>https://huntsoul.com/sup299355.html</link>
+      <link>https://www.huntsoul.com/sup299355.html</link>
       <pubDate>Tue, 14 Jul 2020 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup299355.html</guid>
+      <guid>https://www.huntsoul.com/sup299355.html</guid>
       
         <description>&lt;p&gt;Client reported that Zetta.exe crashed at around 10:20. The DJ told us he was using Stack playing hook, the sequencer was idle at that time, while he clicked &amp;ldquo;Play Next&amp;rdquo; button, Zetta UI crashed. After reopen Zetta, everything went back to normal.&lt;/p&gt;
 &lt;p&gt;We checked debug files and windows logevent, here are what we see:
@@ -293,10 +293,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP296497</title>
-      <link>https://huntsoul.com/sup296497.html</link>
+      <link>https://www.huntsoul.com/sup296497.html</link>
       <pubDate>Wed, 27 May 2020 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup296497.html</guid>
+      <guid>https://www.huntsoul.com/sup296497.html</guid>
       
         <description>&lt;p&gt;Client reported that Sequencer didn&amp;rsquo;t play anything after he restarted the onair machine at around 22:00. We found Sequencer continued skipping events so nothing played. After we uninstalled and reinstalled the audio card driver, Sequencer began to play normally.&lt;/p&gt;
 &lt;p&gt;Checked the debug file, found lots of &amp;lsquo;RENDER ERROR&amp;rsquo; messages in mediaplayerlauncher in that time. And we also found Windows updated itself during the period while computer restarted, like &amp;lsquo;Version 1909 05 update&amp;rsquo;, &amp;lsquo;Intel Corporation-Display update&amp;rsquo; and &amp;lsquo;.net Framework 3.5 and 4.8 update&amp;rsquo;. Will these updates affect current Zetta play device? Obviously Zetta play device didn&amp;rsquo;t work after Windows update in this case. And what is your suggestion if our client will do Windows update for their onair machine?&lt;/p&gt;
@@ -307,10 +307,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP294738</title>
-      <link>https://huntsoul.com/sup294738.html</link>
+      <link>https://www.huntsoul.com/sup294738.html</link>
       <pubDate>Thu, 30 Apr 2020 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup294738.html</guid>
+      <guid>https://www.huntsoul.com/sup294738.html</guid>
       
         <description>&lt;p&gt;Our client report that they record a m4a audio file using iPhone, the original runtime is 37s, but after dragging it to Zetta library, the runtime only show 3.2s. We find the trim-out mark is setting in the position of 3.2s. No problem while import this audio file through autoload.&lt;/p&gt;
 &lt;p&gt;We can recreate the same under 5.20.1. If we remove the analysis settings, no trim-out mark will be set, the runtime shows 37s correctly.&lt;/p&gt;
@@ -321,10 +321,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP291136</title>
-      <link>https://huntsoul.com/sup291136.html</link>
+      <link>https://www.huntsoul.com/sup291136.html</link>
       <pubDate>Mon, 09 Mar 2020 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup291136.html</guid>
+      <guid>https://www.huntsoul.com/sup291136.html</guid>
       
         <description>&lt;p&gt;Client reported that 3 spots was not played at 19:20:41 in March 5. First spot&amp;rsquo;s error code showed &amp;ldquo;Invalid log event status&amp;rdquo;, the last two spots&#39; error code showed &amp;ldquo;Item was not played because its parent event was stopped&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Checked the debug file, I found DJ clicked play next at 19:20:41, then SpotBlock#207902 was skipped, all spots in this SpotBlock didn&amp;rsquo;t play, sequencer began to play next link.&lt;/p&gt;
@@ -353,10 +353,10 @@ Select * from [siteconnection]
     
     <item>
       <title>给自己设置一个大点的目标吧</title>
-      <link>https://huntsoul.com/2020-03-08.html</link>
+      <link>https://www.huntsoul.com/2020-03-08.html</link>
       <pubDate>Sun, 08 Mar 2020 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/2020-03-08.html</guid>
+      <guid>https://www.huntsoul.com/2020-03-08.html</guid>
       
         <description>&lt;blockquote&gt;
 &lt;p&gt;曾经有一只小猴子，肚子被划伤了，流了很多血，它见到一个小鸭子朋友就扒开伤口说：你看我的伤口，好痛。小鸭子赶紧安慰它，同情它，告诉它要赶紧包扎一下。小猴子继续走啊，每遇到一个朋友，就继续给朋友看伤口，这些朋友也都是赶紧安慰它，同情它。可是小猴子只是把伤口给朋友看，并没有听朋友的意见去处理伤口，后来还是因为失血过多而死掉了。如果小猴子一开始就包好伤口，不给别人看伤口，伤口就会慢慢愈合，也不会有后来的事情了。&lt;/p&gt;
@@ -371,10 +371,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP285843</title>
-      <link>https://huntsoul.com/sup285843.html</link>
+      <link>https://www.huntsoul.com/sup285843.html</link>
       <pubDate>Fri, 13 Dec 2019 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup285843.html</guid>
+      <guid>https://www.huntsoul.com/sup285843.html</guid>
       
         <description>&lt;p&gt;Client reported that 8 spots was not played at 7:57 in Dec 12, error code showed &amp;ldquo;Item was not played because its parent event was stopped&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Checked the cue and debug file, I found SPOT#84829 stopped at 7:58:04, but it should be stopped at 7:58:11 and continued playing SPOT#84830. From the cue file created at 7:57:44, the end time of SPOT#84829 and SB#81532 were all showed 7:58:04, all next spots&#39; start time were showed 7:58:04, and (R F) showed in front(you can see this in the picture below), I know F means Fixed, what does R mean? And why SPOT#84829 stopped at 7:58:04 not 7:58:11?&lt;/p&gt;
@@ -386,10 +386,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP282743</title>
-      <link>https://huntsoul.com/sup282743.html</link>
+      <link>https://www.huntsoul.com/sup282743.html</link>
       <pubDate>Mon, 28 Oct 2019 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup282743.html</guid>
+      <guid>https://www.huntsoul.com/sup282743.html</guid>
       
         <description>&lt;p&gt;Client reported that sequencer stopped playing at 8:58:03 and 10:57:47, then DJ clicked &amp;ldquo;Play Next&amp;rdquo;, sequencer came back to play again.&lt;/p&gt;
 &lt;p&gt;Sequencer stopped playing at 08:58:03.&lt;/p&gt;
@@ -423,10 +423,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP282165</title>
-      <link>https://huntsoul.com/sup282165.html</link>
+      <link>https://www.huntsoul.com/sup282165.html</link>
       <pubDate>Mon, 21 Oct 2019 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup282165.html</guid>
+      <guid>https://www.huntsoul.com/sup282165.html</guid>
       
         <description>&lt;p&gt;Client reported that Sequencer stopped playing after SONG#3358019 ended at 16:39:16 in Oct 17, 2 seconds later he clicked Play Next button, SpotBlock#337412 skipped, continued to play next event LINK#337413. They want to know why this happened.&lt;/p&gt;
 &lt;p&gt;From the logeditor, SpotBlock#337412 status showed &amp;ldquo;Played&amp;rdquo;, first spot event&amp;rsquo;s status showed &amp;ldquo;event_error&amp;rdquo;, last three spot events&#39; status showed &amp;ldquo;not played&amp;rdquo;.&lt;/p&gt;
@@ -470,10 +470,10 @@ Select * from [siteconnection]
     
     <item>
       <title>SUP280807</title>
-      <link>https://huntsoul.com/sup280807.html</link>
+      <link>https://www.huntsoul.com/sup280807.html</link>
       <pubDate>Thu, 10 Oct 2019 15:30:00 +0800</pubDate>
       
-      <guid>https://huntsoul.com/sup280807.html</guid>
+      <guid>https://www.huntsoul.com/sup280807.html</guid>
       
         <description>&lt;p&gt;Client reported that there was 0.1 second repeat while sequencer began to play LINK#229733 at 7:17:06 and in Oct 7th. The same problem has occurred several times.&lt;/p&gt;
 &lt;p&gt;From CUE file, LINK#229733 began to play at 07:17:06.628.&lt;/p&gt;
