@@ -6,10 +6,27 @@
     <description>Recent content on HUNTSOUL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2020 15:30:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.huntsoul.com/atom.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dell Universal Receiver添加新设备</title>
+      <link>https://www.huntsoul.com/dell-universal-receiver.html</link>
+      <pubDate>Thu, 12 Nov 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://www.huntsoul.com/dell-universal-receiver.html</guid>
+      
+        <description>&lt;p&gt;意外的发现戴尔通用配对接收器(Dell Universal Receiver)可以同时连接6个不同的兼容鼠标和键盘, 现在家里的台式机分别插了两个接收器, 一个给KM717键盘用, 一个给WM514鼠标用. 虽然KM717配备了键鼠套装, 不过自带的无线激光鼠标实在是用不惯, 就换了一个WM514鼠标使使. 好了, 废话不多说, 简单写一下一个接收器添加多个鼠标键盘的方法.&lt;/p&gt;
+&lt;p&gt;第一步, 下载 &lt;a href=&#34;https://dl.dell.com/FOLDER03428757M/10/APP_IO_W7_W8_W10_A00_Setup-VMRGG_ZPE.exe&#34;&gt;Dell Universal Receiver控制面板&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;第二步, 安装好Dell Universal Receiver控制面板后, 点击添加新设备, 控制面板会自动弹出操作提示, 不过前段时间我按照提示折腾了好久鼠标键盘都没有添加成功.&lt;/p&gt;
+&lt;p&gt;第三步, 如果是添加鼠标, 相对比较简单, 同时按住鼠标右键(左键理论上也行)和电源键超过三秒, 等弹出检测到鼠标后点击添加, 然后等待添加成功即可, 如果添加失败就多试几次.&lt;/p&gt;
+&lt;p&gt;第四步, 如果是添加键盘, 记住一定要长按Windows徽标键然后打开电源(我试过长按键盘其它按键不会检测到键盘), 等待弹出检测到键盘后点击添加, 然后等待添加成功即可, 如果添加失败就多试几次.&lt;/p&gt;
+&lt;p&gt;以上的操作步骤虽然简单, 但是在操作过程中多多少少会遇到些问题, 特别是键盘, 这次做一个记录, 以后就不会走弯路了.&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>RCS软件补白功能说明通知</title>
@@ -464,74 +481,6 @@ Select * from [siteconnection]
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;They are using 4.4.0SP1, we plan to update this site to 4.19.1. But our client is asking why this issue happend. Appreciate to take a look, thanks.&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>SUP280807</title>
-      <link>https://www.huntsoul.com/sup280807.html</link>
-      <pubDate>Thu, 10 Oct 2019 15:30:00 +0800</pubDate>
-      
-      <guid>https://www.huntsoul.com/sup280807.html</guid>
-      
-        <description>&lt;p&gt;Client reported that there was 0.1 second repeat while sequencer began to play LINK#229733 at 7:17:06 and in Oct 7th. The same problem has occurred several times.&lt;/p&gt;
-&lt;p&gt;From CUE file, LINK#229733 began to play at 07:17:06.628.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;PENDING_Seq(         )           07:17:06.628  U (    0,      ) - 07:17:16.468 (  1.15),    229733 (    12379), PLAY_ASSET     , CHAIN_SEGUE ,   ,              , 1     , 新台歌A.Caplla【短版】 ` `-``                                                                              , 0        , INVALID                   , feea7a84-1fe3-e911-a13a-20040ff877ad, ea9b2752-1347-4f21-9f0f-5ff132b36142 (14:26:42.927) (14:26:52.767),  (\\SX940-SVR01\Zetta\Audio\30\30781~{9AE98873-58E3-4A72-B6B4-BDAF6F3FA7AF}.wav                                                                                                                                                                             ) 
-CURRENT Pla(229733   )           07:17:15.358  U (   32,     2) - 07:21:39.638 (   2.5),    229753 (     2465), PLAY_ASSET     , CHAIN_SEGUE ,   ,              , 1     , 对你爱不完 ` `-``                                                                                        , 0        , INVALID                   , 0deb7a84-1fe3-e911-a13a-20040ff877ad, bde7f2f0-47d8-46e2-916e-7ee84e21478e (14:26:51.657) (14:31:15.937),  (\\SX940-SVR01\Zetta\Audio\22\22295~{D1D30C01-5920-4DDE-A593-B66BAEF61559}.wav                                                                                                                                                                             ) 
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;From mediaplayerlauncher debug file, LINK#229733 started playing from the Stream Trigger on event 236918 at 07:17:06.508:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;10-07 07:17:06.508 | Player | PLAYER          | [§](Stream `1`) | [Δ]RefId: 236918: StreamPOITrigger » HISTORY
-	Event Time: 106.39
-	Event Took: 0.0000
-	Event Value: 0.0000
-	Event Details: [§](Stream `1`): Loaded Media: `D:\Zetta\Cache\39\39615~940旭辉江山版二(成品15s)2019-0930.mp3`, Output Device: `OUT  1+2 (Digigram VX822e) (WASAPI)`, RefId: 236918, RefGuid: `F5311763-51D1-4674-ADBC-0C3796B4CCBA`
-	Trigger Msg: &amp;lt;xMsg_Stream_Play PlayerID=&amp;#34;280264117645325&amp;#34; StreamKey=&amp;#34;4&amp;#34; RefType=&amp;#34;1&amp;#34; RefGuidString=&amp;#34;feea7a84-1fe3-e911-a13a-20040ff877ad&amp;#34; RefString=&amp;#34;&amp;amp;lt;xRefString Title=&amp;amp;quot;新台歌A.Caplla【短版】&amp;amp;quot; Artist=&amp;amp;quot;&amp;amp;quot; Cut=&amp;amp;quot;&amp;amp;quot; /&amp;amp;gt;&amp;#34;&amp;gt;&amp;lt;RefZetta RefStationID=&amp;#34;1&amp;#34; RefLogEventTypeID=&amp;#34;106&amp;#34; RefLogEventID=&amp;#34;229733&amp;#34; RefSsdID=&amp;#34;24758&amp;#34; RefAssetTypeID=&amp;#34;3&amp;#34; RefAssetID=&amp;#34;12379&amp;#34; RefResourceID=&amp;#34;30781&amp;#34; /&amp;gt;&amp;lt;/xMsg_Stream_Play&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;From sequencerlauncher debug file, we found sequencer instructed player to reload the audio onto the stream at 07:17:06.636, even though it was already loaded:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:2;-o-tab-size:2;tab-size:2&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;0-07 07:17:06.636 | Seq    | PLAYMONITOR     | [§](Stream `4`) | [POST] Player Message: RCS.ZettaXML.xMsg_Stream_Load
-Stream Details: ([¶][§](280264117645325 @ 4)) @ Reference data[ Type: ZETTA, Guid:feea7a84-1fe3-e911-a13a-20040ff877ad, String: &amp;lt;xRefString Title=&amp;#34;新台歌A.Caplla【短版】&amp;#34; Artist=&amp;#34;&amp;#34; Cut=&amp;#34;&amp;#34; /&amp;gt; ]
-Message XML:
-&amp;lt;xMsg_Stream_Load PlayerID=&amp;#34;280264117645325&amp;#34; StreamKey=&amp;#34;4&amp;#34; RefType=&amp;#34;16777473&amp;#34; RefGuidString=&amp;#34;feea7a84-1fe3-e911-a13a-20040ff877ad&amp;#34; RefString=&amp;#34;&amp;amp;lt;xRefString Title=&amp;amp;quot;新台歌A.Caplla【短版】&amp;amp;quot; Artist=&amp;amp;quot;&amp;amp;quot; Cut=&amp;amp;quot;&amp;amp;quot; /&amp;amp;gt;&amp;#34; Media=&amp;#34;\\SX940-SVR01\Zetta\Audio\30\30781~{9AE98873-58E3-4A72-B6B4-BDAF6F3FA7AF}.wav&amp;#34; Owner=&amp;#34;08e56a82-2222-0068-0001-37a14ce28ed4&amp;#34; Display=&amp;#34;新台歌A.Caplla【短版】&amp;#34; Playnow=&amp;#34;true&amp;#34; SeekPosition=&amp;#34;0&amp;#34;&amp;gt;
-  &amp;lt;RefZetta RefStationID=&amp;#34;1&amp;#34; RefLogEventTypeID=&amp;#34;106&amp;#34; RefLogEventID=&amp;#34;229733&amp;#34; RefSsdID=&amp;#34;24758&amp;#34; RefAssetTypeID=&amp;#34;3&amp;#34; RefAssetID=&amp;#34;12379&amp;#34; RefResourceID=&amp;#34;30781&amp;#34; /&amp;gt;
-  &amp;lt;Transition ResourceLength=&amp;#34;10.08&amp;#34; Key=&amp;#34;120567461307612728&amp;#34; Filename=&amp;#34;30781~{9AE98873-58E3-4A72-B6B4-BDAF6F3FA7AF}.wav&amp;#34; PlaybackMode=&amp;#34;OnAir&amp;#34; FileMD5=&amp;#34;D48A8167FB32556665C47DFF1B9C2311&amp;#34; Zetta_ResourceID=&amp;#34;30781&amp;#34; Zetta_StationSpecificDataID=&amp;#34;24758&amp;#34;&amp;gt;
-      &amp;lt;xMOMMessage Agent=&amp;#34;08e56a82-1111-be01-8000-fee6132cf00d&amp;#34; DataType=&amp;#34;1058&amp;#34; DataId=&amp;#34;280264117645325&amp;#34; DataKey=&amp;#34;2&amp;#34; DataMsg=&amp;#34;&amp;amp;lt;xMsg_Stream_Play PlayerID=&amp;amp;quot;280264117645325&amp;amp;quot; StreamKey=&amp;amp;quot;2&amp;amp;quot; RefType=&amp;amp;quot;1&amp;amp;quot; RefGuidString=&amp;amp;quot;0deb7a84-1fe3-e911-a13a-20040ff877ad&amp;amp;quot; RefString=&amp;amp;quot;&amp;amp;amp;lt;xRefString Title=&amp;amp;amp;quot;对你爱不完&amp;amp;amp;quot; Artist=&amp;amp;amp;quot;庾澄庆&amp;amp;amp;quot; Cut=&amp;amp;amp;quot;&amp;amp;amp;quot; /&amp;amp;amp;gt;&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;RefZetta RefStationID=&amp;amp;quot;1&amp;amp;quot; RefLogEventTypeID=&amp;amp;quot;106&amp;amp;quot; RefLogEventID=&amp;amp;quot;229753&amp;amp;quot; RefSsdID=&amp;amp;quot;4929&amp;amp;quot; RefAssetTypeID=&amp;amp;quot;1&amp;amp;quot; RefAssetID=&amp;amp;quot;2465&amp;amp;quot; RefResourceID=&amp;amp;quot;22295&amp;amp;quot; /&amp;amp;gt;&amp;amp;lt;/xMsg_Stream_Play&amp;amp;gt;&amp;#34; /&amp;gt;
-  &amp;lt;/Transition&amp;gt;
-&amp;lt;/xMsg_Stream_Load&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;All occurrence involved asset#12379. And they are using 4.18.1SP4 in win10, we have suggested this client replace this audio file and adjust marks to see if we can avoid this issue. But our client wants to know why this issue happened.&lt;/p&gt;
 </description>
       
     </item>

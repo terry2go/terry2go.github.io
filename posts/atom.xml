@@ -6,7 +6,16 @@
     <description>Recent content in Posts on HUNTSOUL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2020 17:00:00 +0800</lastBuildDate><atom:link href="https://www.huntsoul.com/posts/atom.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Nov 2020 15:30:00 +0800</lastBuildDate><atom:link href="https://www.huntsoul.com/posts/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dell Universal Receiver添加新设备</title>
+      <link>https://www.huntsoul.com/dell-universal-receiver.html</link>
+      <pubDate>Thu, 12 Nov 2020 15:30:00 +0800</pubDate>
+      
+      <guid>https://www.huntsoul.com/dell-universal-receiver.html</guid>
+      <description>意外的发现戴尔通用配对接收器(Dell Universal Receiver)可以同时连接6个不同的兼容鼠标和键盘, 现在家里的台式机分别插了两个接收器, 一个给K</description>
+    </item>
+    
     <item>
       <title>RCS软件补白功能说明通知</title>
       <link>https://www.huntsoul.com/rcs-filling-notification.html</link>
@@ -176,15 +185,6 @@
       
       <guid>https://www.huntsoul.com/sup282165.html</guid>
       <description>Client reported that Sequencer stopped playing after SONG#3358019 ended at 16:39:16 in Oct 17, 2 seconds later he clicked Play Next button, SpotBlock#337412 skipped, continued to play next event LINK#337413. They want to know why this happened. From the logeditor, SpotBlock#337412 status showed &amp;ldquo;Played&amp;rdquo;, first spot event&amp;rsquo;s status showed &amp;ldquo;event_error&amp;rdquo;, last three spot events&#39; status showed &amp;ldquo;not played&amp;rdquo;. SONG#3358019 stopped at 16:39:16.164. 1 0-17 16:39:16.196 | Seq | SEQUENCER |</description>
-    </item>
-    
-    <item>
-      <title>SUP280807</title>
-      <link>https://www.huntsoul.com/sup280807.html</link>
-      <pubDate>Thu, 10 Oct 2019 15:30:00 +0800</pubDate>
-      
-      <guid>https://www.huntsoul.com/sup280807.html</guid>
-      <description>Client reported that there was 0.1 second repeat while sequencer began to play LINK#229733 at 7:17:06 and in Oct 7th. The same problem has occurred several times. From CUE file, LINK#229733 began to play at 07:17:06.628. 1 2 PENDING_Seq( ) 07:17:06.628 U ( 0, ) - 07:17:16.468 ( 1.15), 229733 ( 12379), PLAY_ASSET , CHAIN_SEGUE , , , 1 , 新台歌A.Capll</description>
     </item>
     
   </channel>
